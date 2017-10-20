@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <script
+            src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css\bootstrap.css">
+    <link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css">
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="color-body">
+<nav>
+    <nav class="navbar navbar-default" id="my-nav">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <i class="fa fa-facebook-official icon-social icon-width" aria-hidden="true"></i>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <form class="navbar-form navbar-left">
+                    <div class="form-group">
+                        <input type="text" class="form-control box-width" placeholder="Search"><button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                    </div>
+                </form>
+
+                <ul class="nav navbar-nav navbar-right align-top" id="icon-color">
+                    <li><a href="https://www.facebook.com/bhardwaj.aditi"><img src="http://www.lallan365.com/Acadview/images123/Aditi.jpg" height="20" width="20" alt="Person">Aditi</a></li>
+                    <li><a href="https://www.facebook.com/">Home</a></li>
+                    <li><a href="https://www.facebook.com/?sk=ff"><span class="notify-badge">1</span><i class="fa fa-user-plus" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.facebook.com/messages/new"><img src="https://png.icons8.com/facebook-messenger-filled/ios7/25" title="Facebook Messenger Filled" width="20" height="20"></a></li>
+                    <li><a href="https://www.facebook.com/notifications"><span class="notify-badge">3</span><i class="fa fa-globe" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.facebook.com/help/?ref=contextual"><i class="fa fa-question-circle" aria-hidden="true"></i></span></a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <div class="container">
+        <article class="row wrapper">
+            <section class="col-md-3 hidden-xs">
+                <div class="active">
+                    <ul class="nav nav-pills nav-stacked p-align">
+                        <p><i class="fa fa-home" aria-hidden="true"></i>Aditi Bhardwaj</p>
+                        <li role="presentation"><a href="https://www.facebook.com/?sk=nf"><i class="fa fa-newspaper-o" aria-hidden="true"></i>News Feed<span class="badge pull-right">2</span><span class="plus"></span></a></li>
+                        <li role="presentation"><a href="https://www.facebook.com/messages/t"><i class="fa fa-commenting" aria-hidden="true"></i>Messenger</a></li>
+                        <p><b>Shortcuts</b></p>
+                        <li role="presentation"><a href="https://www.facebook.com/groups/752744251422795/"><i class="fa fa-users" aria-hidden="true"></i>Nature's protection<span class="badge pull-right">123</span></a></li>
+                        <p><b>Explore</b></p>
+                        <li role="presentation"><a href="https://www.facebook.com/events/"><i class="fa fa-calendar" aria-hidden="true"></i></i>Events<span class="badge pull-right">2</span></a></li>
+                        <li role="presentation"><a href="https://www.facebook.com/pages/?category=liked"><i class="fa fa-file-text" aria-hidden="true"></i>Page</a></li>
+                        <li role="presentation"><a href="https://www.facebook.com/saved/?cref=28"><i class="fa fa-bookmark" aria-hidden="true"></i>Saved</a></li>
+                        <li role="presentation"><a href="https://www.facebook.com/bookmarks/lists/"><i class="fa fa-list-alt" aria-hidden="true"></i>Friend List<span class="badge pull-right">5</span></a></li>
+                        <li role="presentation"><a href="https://www.facebook.com/onthisday/?source=bookmark"><i class="fa fa-podcast" aria-hidden="true"></i>On This Day</a></li>
+                        <li role="presentation"><a href="https://www.facebook.com/weather/?orig_src=bookmark"><i class="fa fa-sun-o" aria-hidden="true"></i>Weather</a></li>
+                        <li role="presentation"><a href="https://www.facebook.com/gameroom/home/"><i class="fa fa-gamepad" aria-hidden="true"></i>Games</a></li>
+                        <li role="presentation"><a href="https://www.facebook.com/pokes"><i class="fa fa-hand-o-right" aria-hidden="true"></i>Pokes<span class="badge pull-right">9</span></a></li>
+                        <p><b>Creat</b></p>
+                        <ul class="nav nav-pills pills-width">
+                            <li role="presentation"><a href="#">Page</a></li>
+                            <li role="presentation"><a href="#">Group</a></li>
+                        </ul>
+                    </ul>
+                </div>
+            </section>
+            <section class="col-md-6"><div class="post-section">
+                <div class="panel panel-default card-margin mpcolor">
+                    <div class="panel-heading"><div class="media-left">
+                        <span class="makepost-1"><i class="fa fa-pencil" aria-hidden="true"></i> <b>Make Post</b> <span class="vertical-line"></span></span>
+                        <span data-toggle="#" title="Choose a file to upload" class="makepost-2"><i class="fa fa-picture-o" aria-hidden="true"></i> <b>Photo/Video Album</b> <span class="vertical-line"></span></span>
+                        <span class="makepost-2"><i class="fa fa-video-camera" aria-hidden="true"></i> <b>Live Video</b> </span>
+                    </div></div>
+                    <div class="panel-body">
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img src="http://www.lallan365.com/Acadview/images123/Aditi.jpg" height="32" width="32" alt="Person">
+                                </a>
+                            </div>
+                            <div data-toggle="#" title="What's on your mind?" class="media-body text-muted">
+                                <span> Hi, Aditi. What are you up to?.</span>
+                            </div>
+                        </div><hr></div>
+                    <div class="panel-footer">
+                        <span>
+                            <button data-toggle="#" title="Choose a file to upload" class="mp1 mp"><span><i class="fa fa-picture-o" aria-hidden="true"></i> <b>Photo/Video</b></span></button>
+                            <button class="mp2 mp"><span><i class="fa fa-smile-o" aria-hidden="true"></i> <b>Feeling/Activity</b></span></button>
+                            <button class="mp3 mp"><span> <b> • • • </b></span></button>
+                        </span>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading"><div class="media-left">
+                        <a href="https://www.facebook.com/bhardwaj.aditi">
+                            <img src="http://www.lallan365.com/Acadview/images123/Aditi.jpg" height="32" width="32" alt="Person">
+                        </a>
+                    </div>
+                        <div class="media-body">
+              <span><a href="https://www.facebook.com/bhardwaj.aditi">
+                  <b>Aditi</b></a>
+              </span>
+                            <div class="like-toolkit">
+                                <span class="text-muted ">1 min</span>
+                                <span class="text-muted">&#8226</span>
+                                <span class="glyphicon glyphicon-globe"></span>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div>
+                                <h3 class="text-post">
+                                    NAMASTE!!
+                                </h3>
+                            </div><hr>
+                        </div>
+                        <div class="like-margin">
+             <span>
+               <span class="glyphicon glyphicon-thumbs-up"></span>
+               <span>Like</span>
+             </span>
+                            <span>
+               <span class="glyphicon glyphicon-comment"></span>
+               <span>Comment</span>
+             </span>
+                        </div>
+                    </div>
+                    <div class="panel-footer"><div class="comment-section">
+                        <div class="media-left">
+                            <a href="https://www.facebook.com/anjalishubhi">
+                                <img src="http://www.lallan365.com/Acadview/images123/Anjali.jpg" height="32" width="32" alt="Person">
+                            </a>
+                        </div>
+                        <div class="media-body">
+          <span><a href="https://www.facebook.com/anjalishubhi">
+          <b>Anjali Srivastava</b></a>
+          </span>
+                            <span>Hola!! </span>
+                            <div class="like-comment-toolkit">
+                                <span><a href="">Like</a></span>
+                                <span class="text-muted">&#8226</span>
+                                <span><a href="">Reply</a></span>
+                                <span class="text-muted">&#8226</span>
+                                <span class="text-muted ">20 seconds</span>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="comment-section">
+                            <div class="media-left">
+                                <a href="https://www.facebook.com/akhil.bharti1">
+                                    <img src="http://www.lallan365.com/Acadview/images123/Akhil.jpg" height="32" width="32" alt="Person">
+                                </a>
+                            </div>
+                            <div class="media-body">
+        <span><a href="https://www.facebook.com/akhil.bharti1">
+          <b>Akhil Bharti</b></a>
+          </span>
+                                <span>Bhakk..... </span>
+                                <div class="like-comment-toolkit">
+                                    <span><a href="">Like</a></span>
+                                    <span class="text-muted">&#8226</span>
+                                    <span><a href="">Reply</a></span>
+                                    <span class="text-muted">&#8226</span>
+                                    <span class="text-muted ">just now</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="https://www.facebook.com/bhardwaj.aditi">
+                                    <img src="http://www.lallan365.com/Acadview/images123/Aditi.jpg" height="32" width="32" alt="Person">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <input type="text" class="input-commentbox" placeholder="Write a comment..">
+                            </div>
+                        </div>
+                    </div></div>
+            </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading"><div class="media-left">
+                        <a href="https://www.facebook.com/anjalishubhi">
+                            <img src="http://www.lallan365.com/Acadview/images123/Anjali.jpg" height="32" width="32" alt="Person">
+                        </a>
+                    </div>
+                        <div class="media-body">
+                          <span><a href="https://www.facebook.com/anjalishubhi">
+                              <b>Anjali Srivastava</b></a>
+                          </span>
+                            <div class="like-toolkit">
+                                <span class="text-muted ">2 hour ago</span>
+                                <span class="text-muted">&#8226</span>
+                                <span class="glyphicon glyphicon-globe"></span>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="img-post">
+                                <h4>
+                                    let it be... :/
+                                </h4>
+                                <img src="http://www.lallan365.com/Acadview/images123/image1.jpg" class="img-responsive" alt="Responsive image">
+                            </div>
+                            <div class="ipost">
+            <span>
+              <span class="glyphicon glyphicon-thumbs-up"></span>
+              <span>Like</span>
+            </span>
+                                <span>
+              <span class="glyphicon glyphicon-comment"></span>
+              <span>Comment</span>
+            </span>
+                            </div>
+                        </div></div>
+                    <div class="panel-footer"><div class="comment-section">
+                        <div class="media-left">
+                            <a href="https://www.facebook.com/bhardwaj.aditi">
+                                <img src="http://www.lallan365.com/Acadview/images123/Aditi.jpg" height="32" width="32" alt="Person">
+                            </a>
+                        </div>
+                        <div class="media-body">
+        <span><a href="https://www.facebook.com/bhardwaj.aditi">
+         <b>Aditi Bhardwaj</b></a>
+        </span>
+                            <span>Tumse na ho paayi.. </span>
+                            <div class="like-comment-toolkit">
+                                <span><a href="">Like</a></span>
+                                <span class="text-muted">&#8226</span>
+                                <span><a href="">Reply</a></span>
+                                <span class="text-muted">&#8226</span>
+                                <span class="text-muted ">9 mins</span>
+                            </div>
+                        </div>
+                    </div>
+                        <div class="comment-section">
+                            <div class="media-left">
+                                <a href="https://www.facebook.com/bhardwaj.aditi">
+                                    <img src="http://www.lallan365.com/Acadview/images123/Aditi.jpg" height="32" width="32" alt="Person">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <input type="text" class="input-commentbox" placeholder="Write a comment..">
+                            </div>
+                        </div>
+                    </div></div>
+                <div class="panel panel-default">
+                    <div class="panel-heading"><div class="media-left">
+                        <a href="https://www.facebook.com/akhil.bharti1">
+                            <img src="http://www.lallan365.com/Acadview/images123/Aditi.jpg" height="32" width="32" alt="Person">
+                        </a>
+                    </div>
+                        <div class="media-body">
+          <span><a href="https://www.facebook.com/bhardwaj.aditi">
+              <b>Aditi Bhardwaj</b></a>
+          </span>
+                            <div class="like-toolkit">
+                                <span class="text-muted ">4 hrs</span>
+                                <span class="text-muted">&#8226</span>
+                                <span class="glyphicon glyphicon-globe"></span>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <h4>
+                                Just a try!!
+                            </h4>
+                            <div class="embed-responsive embed-responsive-16by9 video-post">
+                                <iframe class="embed-responsive-item" src="http://www.lallan365.com/Acadview/images123/video_20170601_175134.mp4" width="560" height="322" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+                            </div>
+                            <div>
+            <span>
+              <span class="glyphicon glyphicon-thumbs-up"></span>
+              <span>Like</span>
+            </span>
+                                <span>
+              <span class="glyphicon glyphicon-comment"></span>
+              <span>Comment</span>
+            </span>
+                            </div></div>
+                    </div>
+                    <div class="panel-footer">
+                        <div class="comment-section">
+                            <div class="media-left">
+                                <a href="https://www.facebook.com/nimit.sachdeva.5">
+                                    <img src="http://www.lallan365.com/Acadview/images123/Nimit.jpg" height="32" width="32" alt="Person">
+                                </a>
+                            </div>
+                            <div class="media-body">
+            <span><a href="https://www.facebook.com/nimit.sachdeva.5">
+                <b>Nimit Sachdeva</b></a>
+          </span>
+                                <span>Keep it up :)!! </span>
+                                <div class="like-comment-toolkit">
+                                    <span><a href="">Like</a></span>
+                                    <span class="text-muted">&#8226</span>
+                                    <span><a href="">Reply</a></span>
+                                    <span class="text-muted">&#8226</span>
+                                    <span class="text-muted ">18 mins</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="comment-section">
+                            <div class="media-left">
+                                <a href="https://www.facebook.com/bhardwaj.aditi">
+                                    <img src="http://www.lallan365.com/Acadview/images123/Aditi.jpg" height="32" width="32" alt="Person">
+                                </a>
+                            </div>
+                            <div class="media-body">
+                                <input type="text" class="input-commentbox" placeholder="Write a comment..">
+                            </div>
+                        </div></div>
+                </div><div class="load-button">
+                    <div>
+                        <button class="buttonload">
+                            <i class="fa fa-refresh fa-spin"></i>Loading
+                        </button></div>
+                </div></section>
+            <section class="col-md-3 hidden-xs "><div class="ads">
+                <div class="panel panel-default card-margin"><div class="panel-heading story">
+                    <div class="media-left"><h5 class="t"><b>Profiles</b></h5></div>
+                    <div class="panel-body scrollmenu">
+                        <div class="media-left">
+                            <a href="https://www.facebook.com/harshit.rajvanshi.7" data-toggle="tooltip" title="Watch Harshit's Profile">
+                                <img class="media-object stories" src="http://www.lallan365.com/Acadview/images123/Harshit.jpg" height="40" width="40" alt="Person">
+                            </a><p class="harshit">Harshit</p>
+                        </div>
+                        <div class="media-left">
+                            <a href="https://www.facebook.com/profile.php?id=100003992749216" data-toggle="tooltip" title="Watch Akash's Profile">
+                                <img class="media-object stories" src="http://www.lallan365.com/Acadview/images123/Akash.jpg" height="40" width="40" alt="Person">
+                            </a><p class="akash">Akash</p>
+                        </div>
+                        <div class="media-left">
+                            <a href="https://www.facebook.com/Aashi0418" data-toggle="tooltip" title="Watch Aashi's Profile">
+                                <img class="media-object stories" src="http://www.lallan365.com/Acadview/images123/Aashi.jpg" height="40" width="40" alt="Person">
+                            </a><p class="aashi">Aashi</p>
+                        </div>
+                        <div class="media-left">
+                            <a href="https://www.facebook.com/rajat.thakur.16144" data-toggle="tooltip" title="Watch Rajat's Proflie">
+                                <img class="media-object stories" src="http://www.lallan365.com/Acadview/images123/Rajat.jpg" height="40" width="40" alt="Person">
+                            </a><p>Rajat</p>
+                        </div></div>
+                </div></div>
+                <div class="panel panel-default card-margin"><div class="panel-body">
+                    <div class="media-left gift">
+                        <a href="https://www.facebook.com/events/birthdays/"><i class="fa fa-gift" aria-hidden="true"></i><b>Birthdays</b></a></div></div></div>
+
+
+                <div class="panel panel-default card-margin"><div class="panel-heading margin-left">
+                    <div class="media-left"><h5 class="t"><b>Trending</b></h5></div>
+                    <div class="media-right"><ul class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#top-trends"><i class="fa fa-line-chart text-muted" aria-hidden="true"></i></a></li>
+                        <li><a data-toggle="tab" href="#politics"><i class="fa fa-university text-muted" aria-hidden="true"></i></a></li>
+                        <li><a data-toggle="tab" href="#sports"><i class="fa fa-futbol-o text-muted" aria-hidden="true"></i></a></li>
+                    </ul>
+                    </div>
+                    <div class="panel-body">
+                        <div class="tab-content">
+                            <div id="top-trends" class="tab-pane fade in active">
+                                <div><div class="media-left">
+                                    <i class="fa fa-line-chart text-muted" aria-hidden="true"></i>
+                                </div>
+                                    <div class="media-body">
+                      <span><a href="https://timesofindia.indiatimes.com/home/environment/pollution/study-world-pollution-deadlier-than-wars-disasters-hunger/articleshow/61149195.cms">
+                          <b> World pollution deadlier than wars, disasters, hunger</b></a>
+                      </span>
+                                        <p class="list-group-item-text">Environmental pollution — from filthy air to contaminated water — is killing more people every year than all war and violence in the world. More than smoking, hunger or natural disasters. More than AIDS, tuberculosis and malaria combined.
+                                        </p><span style="color: darkgrey;">‑ timesofindia.indiatimes.com</span></p>
+                                    </div></div>
+                                <div><div class="media-left">
+                                    <i class="fa fa-line-chart text-muted" aria-hidden="true"></i>
+                                </div>
+                                    <div class="media-body">
+                      <span><a href="https://timesofindia.indiatimes.com/world/europe/man-attacks-people-at-shopping-mall-in-poland-1-dead/articleshow/61156269.cms">
+                          <b>Man attacks people at shopping mall in Poland, 1 dead</b></a>
+                      </span>
+                                        <p class="list-group-item-text">A man attacked people with a knife on Friday at a shopping mall in southeastern Poland, killing one person and sending seven others to the hospital with wounds, police said</p><span style="color: darkgrey;">‑ timesofindia.indiatimes.com</span></p>
+                                    </div></div>
+                                <div><div class="media-left">
+                                    <i class="fa fa-line-chart text-muted" aria-hidden="true"></i>
+                                </div>
+                                    <div class="media-body">
+                      <span><a href="https://timesofindia.indiatimes.com/viral-news/twitter-flooded-with-memes-on-ranveers-khilji-look-kejriwal-becomes-special-target/articleshow/60922615.cms">
+                          <b>#Ranveer_Alauddin_Khilji trending</b></a>
+                      </span>
+                                        <p class="list-group-item-text">Twitter flooded with memes on Ranveer's Khilji look, Kejriwal becomes special target</p><span style="color: darkgrey;">‑ timesofindia.indiatimes.com</span></p>
+                                    </div></div>
+                                <div><div class="media-left">
+                                    <i class="fa fa-line-chart text-muted" aria-hidden="true"></i>
+                                </div>
+                                    <div class="media-body">
+                      <span><a href="https://timesofindia.indiatimes.com/india/pakistan-violates-ceasefire-for-2nd-consecutive-day-along-loc-in-jk/articleshow/61063348.cms">
+                          <b>Ceasefire Violation</b></a>
+                      </span>
+                                        <p class="list-group-item-text">Pakistan violates ceasefire for 2nd consecutive day along LoC in J&K</p><span style="color: darkgrey;">‑ timesofindia.indiatimes.com</span></p>
+                                    </div></div></div>
+                            <div id="politics" class="tab-pane fade">
+                                <div><div class="media-left">
+                                    <i class="fa fa-university text-muted" aria-hidden="true"></i>
+                                </div>
+                                    <div class="media-body">
+                      <span><a href="https://timesofindia.indiatimes.com/india/why-election-commission-didnt-announce-gujarat-assembly-poll-dates/articleshow/61064735.cms">
+                          <b>EC decide to delay announcing the dates for assembly elections in Gujarat</b></a>
+                      </span>
+                                        <p class="list-group-item-text">Why Election Commission didn't announce Gujarat Assembly poll dates</p><span style="color: darkgrey;">‑ timesofindia.indiatimes.com</span></p>
+                                    </div></div>
+                                <div><div class="media-left">
+                                    <i class="fa fa-university text-muted" aria-hidden="true"></i>
+                                </div>
+                                    <div class="media-body">
+                      <span><a href="https://timesofindia.indiatimes.com/world/rest-of-world/as-donald-trump-threatens-north-korea-is-us-practising-for-war/articleshow/61065915.cms">
+                          <b>US vs North Korea</b></a>
+                      </span>
+                                        <p class="list-group-item-text">As Donald Trump threatens North Korea, is US practising for war?</p><span style="color: darkgrey;">‑ timesofindia.indiatimes.com</span></p>
+                                    </div></div>
+                                <div><div class="media-left">
+                                    <i class="fa fa-university text-muted" aria-hidden="true"></i>
+                                </div>
+                                    <div class="media-body">
+                      <span><a href="https://timesofindia.indiatimes.com/city/patna/pm-modi-to-visit-bihar-tomorrow-to-attend-patna-university-function/articleshow/61068248.cms">
+                          <b>PM visit Bihar tomorrow</b></a>
+                      </span>
+                                        <p class="list-group-item-text">PM Modi to visit Bihar tomorrow to attend Patna University function</p><span style="color: darkgrey;">‑ timesofindia.indiatimes.com</span></p>
+                                    </div></div></div>
+                            <div id="sports" class="tab-pane fade">
+                                <div><div class="media-left">
+                                    <i class="fa fa-futbol-o text-muted" aria-hidden="true"></i>
+                                </div>
+                                    <div class="media-body">
+                      <span><a href="https://timesofindia.indiatimes.com/sports/tennis/top-stories/venus-secures-muguruza-rematch-at-wta-finals/articleshow/61156351.cms">
+                          <b>Venus secures Muguruza rematch at WTA Finals</b></a>
+                      </span>
+                                        <p class="list-group-item-text">Venus Williams will get an opportunity to avenge her Wimbledon final defeat by Garbine Muguruza at the eight-player WTA Finals after the veteran American was placed in the same round-robin group as the Spaniard at Friday's draw.</p><span style="color: darkgrey;">‑ timesofindia.indiatimes.com</span></p>
+                                    </div></div>
+                                <div><div class="media-left">
+                                    <i class="fa fa-futbol-o text-muted" aria-hidden="true"></i>
+                                </div>
+                                    <div class="media-body">
+                      <span><a href="https://timesofindia.indiatimes.com/sports/hockey/top-stories/in-form-india-eye-yet-another-pakistan-scalp/articleshow/61152778.cms">
+                          <b>In-form India eye yet another Pakistan scalp</b></a>
+                      </span>
+                                        <p class="list-group-item-text">A draw would be enough for India to seal their place in the Sunday's summit clash</p><span style="color: darkgrey;">‑ timesofindia.indiatimes.com</span></p>
+                                    </div></div>
+                                <div><div class="media-left">
+                                    <i class="fa fa-futbol-o text-muted" aria-hidden="true"></i>
+                                </div>
+                                    <div class="media-body">
+                      <span><a href="https://www.sportskeeda.com/football/records-broken-india-after-beating-macau-4-1-to-seal-afc-asian-cup-2019-spot">
+                          <b>Indian Football</b></a>
+                      </span>
+                                        <p class="list-group-item-text">Records broken by India after beating Macau 4-1 to seal AFC Asian Cup 2019 spot</p><span style="color: darkgrey;">‑ sportskeeda.com</span></p>
+                                    </div></div></div>
+                        </div>
+                    </div>
+                </div></div>
+                <div class="panel panel-default card-margin"><div class="panel-body">
+                    <div class="media-left">
+                        <img src="http://www.lallan365.com/Acadview/images123/Aditi.jpg" height="80" width="80" alt="Person">
+                    </div>
+                    <div class="media-body">
+              <span><a href="https://www.facebook.com/bhardwaj.aditi">
+                  <b>Presents in front of you</b></a>
+              </span>
+                        <div class="like-toolkit">
+                            <span class="text-muted ">Quote of the day</span>
+                        </div>
+                    </div>
+                    <div><p></br>You are today where your thoughts have brought you, you will be tomorrow where your thoughts will take you.</p></div><br>
+                    <div><b><q>THAT'S ALL FOR TODAY.</q></b></div>
+                    <div><b>- </b></div></div></div>
+                <div class="panel panel-default card-margin"><div class="panel-body">
+                    <div class="media-left gift">English (US) · हिन्दी · ਪੰਜਾਬੀ · اردو · ગુજરાતી</div></div></div>
+                <footer class="row">
+                    <ul class="nav nav-pills pull-right">
+                        <li role="presentation"><a href="https://newsroom.fb.com/products/">About us</a></li>
+                        <li role="presentation"><a href="https://www.facebook.com/">Home</a></li>
+                        <li role="presentation"><a href="https://www.facebook.com/privacy/explanation">Privacy</a></li>
+                        <li role="presentation"><a href="https://www.facebook.com/business/">Advertising</a></li>
+                        <li role="presentation"><a href="https://www.facebook.com/policies/cookies/">Cookie</a></li>
+                    </ul>
+                    </footer>
+            </div>
+            </section>
+        </article></div></nav></body>body>
+</html>
